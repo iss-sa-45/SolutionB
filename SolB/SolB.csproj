@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>SolB.B10</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -43,7 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="B1.cs" />
+    <Compile Include="B10.cs" />
+    <Compile Include="B2.cs" />
+    <Compile Include="B3.cs" />
+    <Compile Include="B4.cs" />
+    <Compile Include="B5.cs" />
+    <Compile Include="B6.cs" />
+    <Compile Include="B9.cs" />
+    <Compile Include="B8.cs" />
+    <Compile Include="B7.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
